@@ -1,0 +1,106 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Yume Fleet",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#2563EB",
+    "light": "#60A5FA",
+    "dark": "#1D4ED8",
+    "background": {
+      "dark": "#0B0F17",
+      "light": "#FFFFFF"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Поддержка",
+      "url": "https://t.me/yumefleet"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Войти в систему",
+    "url": "https://app.yumefleet.kz"
+  },
+  "navigation": [
+    {
+      "group": "Обзор",
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "group": "1. Начало работы",
+      "pages": [
+        "getting-started/login",
+        "getting-started/first-run",
+        "getting-started/onboarding"
+      ]
+    },
+    {
+      "group": "2. Машины",
+      "pages": [
+        "vehicles/list",
+        "vehicles/card",
+        "vehicles/statuses",
+        "vehicles/archive"
+      ]
+    },
+    {
+      "group": "3. Водители",
+      "pages": [
+        "drivers/list",
+        "drivers/card",
+        "drivers/documents",
+        "drivers/verification"
+      ]
+    },
+    {
+      "group": "4. Аренда",
+      "pages": [
+        "rent/creation",
+        "rent/conditions",
+        "rent/modification",
+        "rent/completion",
+        "rent/deposits"
+      ]
+    },
+    {
+      "group": "5. Платежи",
+      "pages": [
+        "payments/accept",
+        "payments/kaspi",
+        "payments/journal"
+      ]
+    },
+    {
+      "group": "6. Штрафы ПДД",
+      "pages": [
+        "fines/list",
+        "fines/driver-binding",
+        "fines/debt-settlement"
+      ]
+    },
+    {
+      "group": "7. ТО и осмотры",
+      "pages": [
+        "maintenance/schedule",
+        "maintenance/items",
+        "maintenance/orders",
+        "maintenance/inspections"
+      ]
+    },
+    {
+      "group": "8. Термины",
+      "pages": [
+        "glossary/terms"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "telegram": "https://t.me/yumefleet"
+  }
+}

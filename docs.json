@@ -1,72 +1,115 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Yume Fleet",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#2563EB",
+    "light": "#60A5FA",
+    "dark": "#1D4ED8"
   },
-  "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
+    "groups": [
       {
-        "group": "Getting Started",
+        "group": "Обзор",
         "pages": [
-          "index",
-          "quickstart"
+          "index"
+        ]
+      },
+      {
+        "group": "1. Начало работы",
+        "pages": [
+          "getting-started/login",
+          "getting-started/first-run",
+          "getting-started/onboarding"
+        ]
+      },
+      {
+        "group": "2. Машины",
+        "pages": [
+          "vehicles/list",
+          "vehicles/card",
+          "vehicles/statuses",
+          "vehicles/archive"
+        ]
+      },
+      {
+        "group": "3. Водители",
+        "pages": [
+          "drivers/list",
+          "drivers/card",
+          "drivers/documents",
+          "drivers/verification"
+        ]
+      },
+      {
+        "group": "4. Аренда",
+        "pages": [
+          "rent/creation",
+          "rent/conditions",
+          "rent/modification",
+          "rent/completion",
+          "rent/deposits"
+        ]
+      },
+      {
+        "group": "5. Платежи",
+        "pages": [
+          "payments/accept",
+          "payments/kaspi",
+          "payments/journal"
+        ]
+      },
+      {
+        "group": "6. Штрафы ПДД",
+        "pages": [
+          "fines/list",
+          "fines/driver-binding",
+          "fines/debt-settlement"
+        ]
+      },
+      {
+        "group": "7. ТО и осмотры",
+        "pages": [
+          "maintenance/schedule",
+          "maintenance/items",
+          "maintenance/orders",
+          "maintenance/inspections"
+        ]
+      },
+      {
+        "group": "8. Термины",
+        "pages": [
+          "glossary/terms"
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
+  "background": {
+    "color": {
+      "light": "#FFFFFF",
+      "dark": "#0B0F17"
+    }
+  },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Поддержка",
+        "href": "https://t.me/yumefleet"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Войти в систему",
+      "href": "https://app.yumefleet.kz"
     }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "telegram": "https://t.me/yumefleet"
     }
   }
 }
