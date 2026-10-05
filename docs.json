@@ -3,9 +3,9 @@
   "theme": "palm",
   "name": "Yume Fleet",
   "colors": {
-    "primary": "#2563EB",
-    "light": "#60A5FA",
-    "dark": "#1D4ED8"
+    "primary": "#0D0D0D",
+    "light": "#F0B100",
+    "dark": "#181818"
   },
   "navigation": {
     "groups": [
@@ -97,14 +97,18 @@
   "navbar": {
     "links": [
       {
+        "label": "Сайт",
+        "href": "https://www.yumefleet.com"
+      },
+      {
         "label": "Поддержка",
         "href": "https://t.me/yumefleet"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Войти в систему",
-      "href": "https://app.yumefleet.kz"
+      "label": "Войти",
+      "href": "https://yumefleet.com/login"
     }
   },
   "footer": {
