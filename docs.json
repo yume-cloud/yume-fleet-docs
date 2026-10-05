@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "palm",
   "name": "Yume Fleet",
   "colors": {
     "primary": "#2563EB",
@@ -111,5 +111,8 @@
     "socials": {
       "telegram": "https://t.me/yumefleet"
     }
+  },
+  "icons": {
+    "library": "lucide"
   }
 }
