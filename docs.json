@@ -82,6 +82,12 @@
         "pages": [
           "glossary/terms"
         ]
+      },
+      {
+        "group": "9. Вопросы",
+        "pages": [
+          "qa/faq"
+        ]
       }
     ]
   },
