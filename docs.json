@@ -78,13 +78,20 @@
         ]
       },
       {
-        "group": "8. Термины",
+        "group": "8. ИИ-ассистент",
+        "pages": [
+          "assistant/overview",
+          "assistant/support-and-help"
+        ]
+      },
+      {
+        "group": "9. Термины",
         "pages": [
           "glossary/terms"
         ]
       },
       {
-        "group": "9. Вопросы",
+        "group": "10. Вопросы",
         "pages": [
           "qa/faq"
         ]
